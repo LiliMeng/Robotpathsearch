@@ -1,6 +1,7 @@
 Robotpathsearch
 ===============
 
+Jan 12th,2014
 Robot Path Search
 
 Course on Udacity
@@ -21,3 +22,4 @@ If you know the index of the element you want, you can use pop:
 ['a','c']
 >>>print x
 b
+
