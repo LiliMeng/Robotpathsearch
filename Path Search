@@ -42,15 +42,15 @@ def search():
       if len(open) == 0:
          resign = True
          print 'fail'
-         #print '##### Search terminated without success'
+         print '##### Search terminated without success'
       
       else:
          # remove node from list
          open.sort()
          open.reverse()
          next = open.pop()
-         #print 'take list item'
-         #print next
+         print 'take list item'
+         print next
          x = next[1]
          y = next[2]
          g = next[0]
